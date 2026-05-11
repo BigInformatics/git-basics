@@ -24,6 +24,19 @@ By the end, learners should be able to:
 - Open, update, and merge pull requests
 - Follow a safe beginner workflow without losing work
 
+## Website
+
+This repository publishes as an Astro Starlight site at:
+
+<https://biginformatics.github.io/git-basics/>
+
+Local preview:
+
+```bash
+npm install
+npm run dev
+```
+
 ## How to use this course
 
 Each lesson is meant to be completed with Git open on the learner's computer. The goal is not to memorize commands. The goal is to practice the same workflow enough times that it becomes familiar.
