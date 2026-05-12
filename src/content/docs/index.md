@@ -6,10 +6,10 @@ hero:
   tagline: Learn Git through small repeatable workflows—not long lectures.
   actions:
     - text: Start Lesson 01
-      link: /lessons/01-what-git-and-github-are/
+      link: /git-basics/lessons/01-what-git-and-github-are/
       icon: right-arrow
     - text: Practice Checklist
-      link: /exercises/practice-checklist/
+      link: /git-basics/exercises/practice-checklist/
       variant: secondary
 ---
 
