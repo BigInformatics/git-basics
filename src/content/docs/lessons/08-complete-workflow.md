@@ -6,12 +6,30 @@ sidebar:
 
 ## Goal
 
-Practice the full Git/GitHub workflow from start to finish.
+Practice the full Git/GitHub workflow from start to finish in a learner-owned practice repository.
 
 ## Full workflow
 
 ```text
-clone → branch → edit → status → add → commit → push → PR → review → merge → pull
+clone → branch → edit → status → diff → add → commit → push → PR → review → merge → pull
+```
+
+## Practice scenario
+
+Use `git-basics-sql-practice` or another `git-basics-` template repository.
+
+Scenario: improve one data dictionary entry so another analyst can understand a field without asking for clarification.
+
+Example file:
+
+```text
+data-dictionary/patient_visits.md
+```
+
+Example branch:
+
+```text
+metadata/define-visit-date
 ```
 
 ## Checklist
@@ -21,8 +39,8 @@ clone → branch → edit → status → add → commit → push → PR → revi
 If you do not already have it locally:
 
 ```bash
-git clone https://github.com/organization/repository-name.git
-cd repository-name
+git clone https://github.com/your-account/git-basics-sql-practice.git
+cd git-basics-sql-practice
 ```
 
 - [ ] I am inside the repository folder.
@@ -46,35 +64,40 @@ git pull
 ### 3. Create a branch
 
 ```bash
-git checkout -b docs/add-practice-note
+git checkout -b metadata/define-visit-date
 ```
 
 or:
 
 ```bash
-git switch -c docs/add-practice-note
+git switch -c metadata/define-visit-date
 ```
 
 - [ ] I created a branch for my change.
 
 ### 4. Make a small change
 
-Edit a file, such as `README.md`.
+Edit one data dictionary entry.
+
+Keep the change small enough that a reviewer can understand it quickly.
 
 - [ ] I made one small change.
 
-### 5. Check status
+### 5. Check status and diff
 
 ```bash
 git status
+git diff
 ```
 
 - [ ] I can see my changed file.
+- [ ] I reviewed the exact lines that changed.
+- [ ] I do not see unrelated edits.
 
 ### 6. Stage the change
 
 ```bash
-git add README.md
+git add data-dictionary/patient_visits.md
 ```
 
 - [ ] I staged the file.
@@ -82,7 +105,7 @@ git add README.md
 ### 7. Commit the change
 
 ```bash
-git commit -m "docs: add practice note"
+git commit -m "docs: define visit date field"
 ```
 
 - [ ] I committed the change.
@@ -90,7 +113,7 @@ git commit -m "docs: add practice note"
 ### 8. Push the branch
 
 ```bash
-git push -u origin docs/add-practice-note
+git push -u origin metadata/define-visit-date
 ```
 
 - [ ] I pushed the branch to GitHub.
@@ -106,7 +129,9 @@ git push -u origin docs/add-practice-note
 If feedback is requested:
 
 ```bash
-git add README.md
+git status
+git diff
+git add data-dictionary/patient_visits.md
 git commit -m "docs: address feedback"
 git push
 ```
@@ -144,3 +169,4 @@ git pull
 - [ ] I know to use branches instead of changing `main` directly.
 - [ ] I know to use PRs for review before merging.
 - [ ] I know to run `git status` often.
+- [ ] I know to run `git diff` before staging.

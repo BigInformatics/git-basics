@@ -11,6 +11,9 @@ hero:
     - text: Practice Checklist
       link: /git-basics/exercises/practice-checklist/
       variant: secondary
+    - text: Template Repositories
+      link: /git-basics/practice/template-repositories/
+      variant: secondary
 ---
 
 ## What this site teaches
@@ -37,6 +40,7 @@ It is designed for analysts, statisticians, epidemiologists, evaluators, and pub
 ## Practice and resources
 
 - [Practice Checklist](/git-basics/exercises/practice-checklist/)
+- [Template Practice Repositories](/git-basics/practice/template-repositories/)
 - [Command Cheat Sheet](/git-basics/resources/command-cheat-sheet/)
 - [Glossary](/git-basics/resources/glossary/)
 - [Facilitator Guide](/git-basics/resources/facilitator-guide/)

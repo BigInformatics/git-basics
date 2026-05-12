@@ -6,11 +6,11 @@ sidebar:
 
 ## Goal
 
-Copy an existing GitHub repository to your computer.
+Copy a GitHub repository to your computer and confirm that Git can see it correctly.
 
 ## What cloning means
 
-To **clone** a repository means to download a full working copy of it from GitHub to your computer.
+To **clone** a repository means to download a full working copy from GitHub to your computer.
 
 After cloning, you have:
 
@@ -18,18 +18,31 @@ After cloning, you have:
 - The Git history
 - A connection back to the GitHub repository
 
+For this course, learners should work in their own copy of a practice template such as `git-basics-sql-practice`.
+
+## Recommended practice setup
+
+If the template repository is available:
+
+1. Open `https://github.com/BigInformatics/git-basics-sql-practice`.
+2. Click **Use this template**.
+3. Create a new repository under your own GitHub account or training organization.
+4. Clone your new repository, not the course site.
+
+This keeps practice work separate from the course materials.
+
 ## Checklist
 
 ### 1. Find the repository on GitHub
 
-- [ ] Open the repository page in GitHub.
+- [ ] Open your learner-owned practice repository in GitHub.
 - [ ] Click the green **Code** button.
 - [ ] Copy the HTTPS URL.
 
 It will look like:
 
 ```text
-https://github.com/organization/repository-name.git
+https://github.com/your-account/git-basics-sql-practice.git
 ```
 
 ### 2. Choose where to put the project
@@ -47,7 +60,7 @@ cd Documents
 Run:
 
 ```bash
-git clone https://github.com/organization/repository-name.git
+git clone https://github.com/your-account/git-basics-sql-practice.git
 ```
 
 Replace the URL with the actual repository URL.
@@ -59,7 +72,7 @@ Replace the URL with the actual repository URL.
 Run:
 
 ```bash
-cd repository-name
+cd git-basics-sql-practice
 ```
 
 - [ ] I am now inside the repository folder.
@@ -72,19 +85,29 @@ Run:
 git status
 ```
 
+Expected result:
+
+```text
+On branch main
+nothing to commit, working tree clean
+```
+
+The wording may vary slightly. The important points are that you are on a branch and Git does not show unexpected changes.
+
 - [ ] Git says I am on a branch, usually `main`.
 - [ ] Git says my working tree is clean.
 
-## Practice task
+### 6. Confirm the GitHub connection
 
-Clone a practice repository, enter the folder, and run:
+Run:
 
 ```bash
-git status
 git remote -v
 ```
 
-`git remote -v` shows the GitHub address connected to your local copy.
+You should see the GitHub URL for your learner-owned practice repository.
+
+- [ ] `origin` points to my practice repository.
 
 ## Completion check
 
@@ -92,3 +115,4 @@ git remote -v
 - [ ] I can move into the repository folder.
 - [ ] I can run `git status` inside the repository.
 - [ ] I can run `git remote -v` to see the GitHub connection.
+- [ ] I know whether I am working in my practice repository or the course site.
