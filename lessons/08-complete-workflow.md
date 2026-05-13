@@ -8,10 +8,10 @@ By this point, the commands should start to feel less like separate facts and mo
 
 ## Full workflow
 
-![Diagram of the complete beginner Git workflow: start updated, branch, edit, inspect, stage, commit, push, PR, review, merge, and update main.](/git-basics/images/git-complete-workflow.svg)
+![Diagram of the complete beginner Git workflow: start updates, branch, edit, inspect, stage, commit, push, PR, review, merge, and update main.](/git-basics/images/git-complete-workflow.svg)
 
 ```text
-start updated → branch → edit → inspect → stage → commit → push → PR → review → merge → update main
+start updates → branch → edit → inspect → stage → commit → push → PR → review → merge → update main
 ```
 
 More explicitly, think of the workflow in four small phases:

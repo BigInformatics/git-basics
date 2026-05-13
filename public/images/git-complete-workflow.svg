@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
-  <title id="title">Complete beginner Git workflow</title>
-  <desc id="desc">Diagram showing the complete beginner workflow in four digestible phases: start current, work locally, share for review, then merge and update main.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-labelledby="title desc">
+  <title id="title">Draft complete beginner Git workflow with padded phase labels</title>
+  <desc id="desc">Draft diagram showing a complete beginner Git workflow in three horizontal lanes. Phase labels have added vertical padding so they do not crowd the step boxes. Arrows inside each lane have visible arrowheads.</desc>
   <defs>
-    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M 0 0 L 7 3.5 L 0 7 z" fill="#1f2937" />
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
     </marker>
     <style>
       .bg { fill:#ffffff; }
       .panel { fill:#f8fafc; stroke:#d1d5db; stroke-width:2; rx:28; }
-      .phase { fill:#ffffff; stroke:#d1d5db; stroke-width:2; rx:22; }
+      .lane { fill:#ffffff; stroke:#e5e7eb; stroke-width:2; rx:22; }
       .box { stroke-width:4; rx:16; }
       .blue { fill:#eff6ff; stroke:#1d4ed8; }
       .green { fill:#ecfdf5; stroke:#047857; }
@@ -17,54 +17,44 @@
       .purple { fill:#f5f3ff; stroke:#6d28d9; }
       .title { font: 700 38px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
       .subtitle { font: 400 22px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
-      .phaseLabel { font: 700 20px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
+      .laneLabel { font: 700 20px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
       .label { font: 700 21px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
       .small { font: 500 18px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
-      .tiny { font: 500 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
       .arrow { stroke:#1f2937; stroke-width:3.5; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
-      .return { stroke:#6b7280; stroke-width:3; fill:none; stroke-linecap:round; marker-end:url(#arrow); stroke-dasharray:10 10; }
     </style>
   </defs>
   <rect class="bg" width="100%" height="100%"/>
   <text x="70" y="72" class="title">Complete beginner workflow</text>
-  <text x="70" y="112" class="subtitle">A safe loop: begin from current main, work locally, ask for review, then update main again.</text>
-  <rect x="55" y="150" width="1290" height="500" class="panel"/>
+  <text x="70" y="112" class="subtitle">Read each row as one phase. Arrows show movement inside a phase, not between phases.</text>
+  <rect x="55" y="150" width="1290" height="540" class="panel"/>
 
-  <rect x="85" y="185" width="250" height="170" class="phase"/>
-  <text x="110" y="218" class="phaseLabel">1. Start current</text>
-  <rect x="115" y="245" width="190" height="70" class="box blue"/>
-  <text x="210" y="288" text-anchor="middle" class="label">start updated</text>
+  <rect x="90" y="185" width="1220" height="135" class="lane"/>
+  <text x="115" y="217" class="laneLabel">1. Get ready</text>
+  <rect x="275" y="245" width="205" height="60" class="box blue"/><text x="377" y="282" text-anchor="middle" class="label">Start Updates</text>
+  <rect x="555" y="245" width="150" height="60" class="box green"/><text x="630" y="282" text-anchor="middle" class="label">branch</text>
+  <path d="M 493 275 L 540 275" class="arrow"/>
 
-  <rect x="370" y="185" width="535" height="170" class="phase"/>
-  <text x="395" y="218" class="phaseLabel">2. Work locally</text>
-  <rect x="400" y="245" width="110" height="70" class="box green"/><text x="455" y="288" text-anchor="middle" class="label">branch</text>
-  <rect x="540" y="245" width="110" height="70" class="box blue"/><text x="595" y="288" text-anchor="middle" class="label">edit</text>
-  <rect x="680" y="245" width="110" height="70" class="box amber"/><text x="735" y="288" text-anchor="middle" class="label">inspect</text>
-  <rect x="820" y="245" width="65" height="70" class="box green"/><text x="852" y="288" text-anchor="middle" class="label">stage</text>
+  <rect x="90" y="355" width="1220" height="135" class="lane"/>
+  <text x="115" y="387" class="laneLabel">2. Do the work locally</text>
+  <rect x="225" y="415" width="125" height="60" class="box blue"/><text x="287" y="452" text-anchor="middle" class="label">edit</text>
+  <rect x="410" y="415" width="145" height="60" class="box amber"/><text x="482" y="452" text-anchor="middle" class="label">inspect</text>
+  <rect x="615" y="415" width="130" height="60" class="box green"/><text x="680" y="452" text-anchor="middle" class="label">stage</text>
+  <rect x="805" y="415" width="145" height="60" class="box purple"/><text x="877" y="452" text-anchor="middle" class="label">commit</text>
+  <rect x="1010" y="415" width="125" height="60" class="box teal"/><text x="1072" y="452" text-anchor="middle" class="label">push</text>
+  <path d="M 365 445 L 395 445" class="arrow"/>
+  <path d="M 570 445 L 600 445" class="arrow"/>
+  <path d="M 760 445 L 790 445" class="arrow"/>
+  <path d="M 965 445 L 995 445" class="arrow"/>
 
-  <rect x="940" y="185" width="370" height="170" class="phase"/>
-  <text x="965" y="218" class="phaseLabel">3. Save and share</text>
-  <rect x="970" y="245" width="135" height="70" class="box purple"/><text x="1037" y="288" text-anchor="middle" class="label">commit</text>
-  <rect x="1140" y="245" width="135" height="70" class="box teal"/><text x="1207" y="288" text-anchor="middle" class="label">push</text>
+  <rect x="90" y="525" width="1220" height="135" class="lane"/>
+  <text x="115" y="557" class="laneLabel">3. Review, merge, update</text>
+  <rect x="225" y="585" width="185" height="60" class="box blue"/><text x="317" y="622" text-anchor="middle" class="label">update main</text>
+  <rect x="485" y="585" width="135" height="60" class="box green"/><text x="552" y="622" text-anchor="middle" class="label">merge</text>
+  <rect x="695" y="585" width="145" height="60" class="box amber"/><text x="767" y="622" text-anchor="middle" class="label">review</text>
+  <rect x="915" y="585" width="100" height="60" class="box purple"/><text x="965" y="622" text-anchor="middle" class="label">PR</text>
+  <path d="M 905 615 L 855 615" class="arrow"/>
+  <path d="M 680 615 L 635 615" class="arrow"/>
+  <path d="M 470 615 L 425 615" class="arrow"/>
 
-  <rect x="370" y="420" width="760" height="170" class="phase"/>
-  <text x="395" y="453" class="phaseLabel">4. Review, merge, update</text>
-  <rect x="405" y="480" width="120" height="70" class="box purple"/><text x="465" y="523" text-anchor="middle" class="label">PR</text>
-  <rect x="560" y="480" width="140" height="70" class="box amber"/><text x="630" y="523" text-anchor="middle" class="label">review</text>
-  <rect x="735" y="480" width="140" height="70" class="box green"/><text x="805" y="523" text-anchor="middle" class="label">merge</text>
-  <rect x="910" y="480" width="185" height="70" class="box blue"/><text x="1002" y="523" text-anchor="middle" class="label">update main</text>
-
-  <path d="M 315 280 L 385 280" class="arrow"/>
-  <path d="M 515 280 L 525 280" class="arrow"/>
-  <path d="M 655 280 L 665 280" class="arrow"/>
-  <path d="M 795 280 L 808 280" class="arrow"/>
-  <path d="M 900 280 L 955 280" class="arrow"/>
-  <path d="M 1110 280 L 1125 280" class="arrow"/>
-  <path d="M 1207 330 C 1207 390, 470 390, 390 515" class="arrow"/>
-  <path d="M 530 515 L 545 515" class="arrow"/>
-  <path d="M 705 515 L 720 515" class="arrow"/>
-  <path d="M 880 515 L 895 515" class="arrow"/>
-  <path d="M 1002 560 C 920 635, 300 660, 210 330" class="return"/>
-
-  <text x="85" y="710" class="small">Remember: push shares commits; the pull request is the review point; updating main closes the loop for next time.</text>
+  <text x="90" y="740" class="small">Note: each phase starts on a new row to reduce visual load. The review row is arranged right-to-left: PR → review → merge → update main.</text>
 </svg>
