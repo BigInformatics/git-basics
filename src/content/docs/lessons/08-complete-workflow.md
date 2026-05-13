@@ -18,12 +18,14 @@ By this point, the commands should start to feel less like separate facts and mo
 start updated → branch → edit → inspect → stage → commit → push → PR → review → merge → update main
 ```
 
-More explicitly:
+More explicitly, think of the workflow in four small phases:
 
-```text
-clone/open → switch main → pull → branch → edit → status → diff → add → diff --staged
-          → commit → push → open PR → respond to review → merge → switch main → pull
-```
+| Phase | What you do | Commands or action |
+| --- | --- | --- |
+| 1. Start current | Open the repo, switch to `main`, and bring in the latest shared work. | `git switch main`, `git pull` |
+| 2. Work locally | Create a branch, make the change, inspect it, and stage only what belongs. | `git switch -c ...`, edit, `git status`, `git diff`, `git add ...` |
+| 3. Save and share | Review the staged change, commit it locally, then push the branch to GitHub. | `git diff --staged`, `git commit`, `git push` |
+| 4. Review and update | Open the PR, respond to review, merge, then update local `main`. | Open PR, review, merge, `git switch main`, `git pull` |
 
 ## What each step is protecting
 
