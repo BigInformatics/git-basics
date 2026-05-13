@@ -8,6 +8,8 @@ This lesson is deliberately slow. The skill is not typing commands quickly; the 
 
 ## Mental model
 
+![Diagram showing work moving from the working tree, to the staging area with git add, and then to local Git history with git commit.](/git-basics/images/git-three-places.svg)
+
 ```text
 Your files on disk          Staging area              Local Git history
 ------------------          ------------              -----------------

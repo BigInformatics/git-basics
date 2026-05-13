@@ -10,6 +10,8 @@ A **branch** is a separate workspace for a change.
 
 Instead of editing `main` directly, create a branch for your work.
 
+![Diagram showing main as the stable shared line and a branch splitting off as a safe workspace for one proposed change.](/git-basics/images/git-branch-workspace.svg)
+
 ```text
 main        = official shared version
 your branch = your workspace for a proposed change
