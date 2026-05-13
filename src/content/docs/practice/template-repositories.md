@@ -52,13 +52,13 @@ Keep the repository small. The goal is Git practice, not SQL mastery.
 
 Each learner creates their own repository from the template:
 
-1. Open `https://github.com/BigInformatics/git-basics-sql-practice`.
+1. Open the facilitator-provided template repository. The intended public template name is `BigInformatics/git-basics-sql-practice`.
 2. Select **Use this template**.
 3. Create a repository under their own account or training organization.
 4. Clone their new repository.
 5. Complete the course exercises in that copy.
 
-If the template has not been published yet, facilitators can use a temporary practice repository and replace the URL later.
+If the template has not been published yet, facilitators should use a temporary practice repository and replace the template reference before a public training session.
 
 ## Naming convention
 

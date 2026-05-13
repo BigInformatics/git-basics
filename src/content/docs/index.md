@@ -18,13 +18,54 @@ hero:
 
 ## What this site teaches
 
-This site helps beginners practice the Git and GitHub workflow they need for everyday collaboration:
+This site helps analysts, statisticians, epidemiologists, evaluators, and public health data teams practice the Git and GitHub workflow they need for everyday collaboration.
+
+It is built for people adopting Git while real work is still moving: reports are due, staffing is tight, and nobody needs extra drama from their tools. The course uses small, repeatable tasks so learners can build calm working habits.
 
 ```text
-pull → branch → edit → status → add → commit → push → pull request
+start updated → branch → edit → inspect → stage → commit → push → PR → update main
 ```
 
-It is designed for analysts, statisticians, epidemiologists, evaluators, and public health data teams who need Git to become practical and familiar.
+## The core mental model
+
+```text
+Your computer                                           GitHub
+-------------                                           ------
+working files → staging area → local commits  → push →  shared commits
+                                      shared commits ← pull ← reviewed work
+```
+
+| Learner question | Git/GitHub idea | Command or place to check |
+| --- | --- | --- |
+| What does Git know right now? | Current branch, file changes, staged work | `git status` |
+| What changed? | Line-by-line edits | `git diff` and `git diff --staged` |
+| What has been saved locally? | Commits on your computer | `git log --oneline` |
+| What does GitHub have? | Pushed branches, commits, and pull requests | Repository page on GitHub |
+| What happens next? | Pull, branch, stage, commit, push, or open/review a PR | The lesson checklists |
+
+> **Important course promise:** Git becomes manageable when you can answer four questions: what Git knows, what GitHub has, what changed, and what happens next.
+
+## What learners will practice
+
+- Cloning a repository from GitHub.
+- Reading `git status` before acting.
+- Reviewing changes with `git diff`.
+- Staging specific files.
+- Making clear local commits.
+- Understanding that `git push` sends commits; it does not commit file changes.
+- Pulling updates from GitHub.
+- Creating branches for small changes.
+- Opening, updating, reviewing, and merging pull requests.
+
+## Recommended path
+
+| Phase | Lessons | Outcome |
+| --- | --- | --- |
+| Orientation | Lessons 01–03 | Know what Git and GitHub are, install/check tools, clone a practice repo |
+| Local workflow | Lesson 04 | Edit, inspect, stage, and commit locally |
+| Sharing work | Lesson 05 | Pull from GitHub and push committed work |
+| Collaboration | Lessons 06–07 | Use branches and pull requests |
+| Repetition | Lesson 08 + checklist | Complete the full workflow several times |
 
 ## Lessons
 

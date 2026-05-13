@@ -8,13 +8,21 @@ Use this checklist inside a learner-owned copy of a practice template, preferabl
 
 The same pattern should be repeated several times with small changes. The objective is comfort with the workflow, not speed.
 
+## The repeatable pattern
+
+```text
+update main → create branch → edit → status → diff → add → diff --staged → commit → push → PR → merge → pull main
+```
+
 ## Before each round
 
 ```bash
-git checkout main
+git switch main
 git pull
 git status
 ```
+
+If `git switch` is not available, use `git checkout main`.
 
 - [ ] I am on `main`.
 - [ ] My local copy is up to date.
@@ -22,42 +30,51 @@ git status
 
 ## Round 1 — Edit an analysis note
 
-- [ ] Create a branch named `docs/add-analysis-note`.
-- [ ] Open `analysis-notes/findings.md`.
+| Step | Command or action |
+| --- | --- |
+| Create branch | `git switch -c docs/add-analysis-note` |
+| Edit | Open `analysis-notes/findings.md` |
+| Inspect | `git status` then `git diff` |
+| Stage | `git add analysis-notes/findings.md` |
+| Check staged work | `git diff --staged` |
+| Commit | `git commit -m "docs: add analysis note"` |
+| Push | `git push -u origin docs/add-analysis-note` |
+
 - [ ] Add one short note about what the starter query is intended to answer.
-- [ ] Run `git status`.
-- [ ] Run `git diff` and review the exact text I changed.
-- [ ] Stage the file.
-- [ ] Commit with `docs: add analysis note`.
-- [ ] Push the branch.
 - [ ] Open a pull request.
 - [ ] Merge it after review.
 - [ ] Switch back to `main` and pull the merged change.
 
 ## Round 2 — Update a SQL query comment
 
-- [ ] Create a branch named `analysis/clarify-visit-query`.
-- [ ] Open `queries/01-count-visits.sql`.
+| Step | Command or action |
+| --- | --- |
+| Create branch | `git switch -c analysis/clarify-visit-query` |
+| Edit | Open `queries/01-count-visits.sql` |
+| Inspect | `git status` then `git diff` |
+| Stage | `git add queries/01-count-visits.sql` |
+| Check staged work | `git diff --staged` |
+| Commit | `git commit -m "docs: clarify visit count query"` |
+| Push | `git push -u origin analysis/clarify-visit-query` |
+
 - [ ] Add or improve a comment that explains what the query counts.
-- [ ] Run `git status`.
-- [ ] Run `git diff`.
-- [ ] Stage only the SQL file.
-- [ ] Commit with `docs: clarify visit count query`.
-- [ ] Push the branch.
 - [ ] Open a pull request.
 - [ ] Update the PR if feedback is requested.
 - [ ] Merge the PR and pull the latest `main`.
 
 ## Round 3 — Improve a data dictionary entry
 
-- [ ] Create a branch named `metadata/define-visit-date`.
-- [ ] Open `data-dictionary/patient_visits.md`.
+| Step | Command or action |
+| --- | --- |
+| Create branch | `git switch -c metadata/define-visit-date` |
+| Edit | Open `data-dictionary/patient_visits.md` |
+| Inspect | `git status` then `git diff` |
+| Stage | `git add data-dictionary/patient_visits.md` |
+| Check staged work | `git diff --staged` |
+| Commit | `git commit -m "docs: define visit date field"` |
+| Push | `git push -u origin metadata/define-visit-date` |
+
 - [ ] Add or revise one field definition.
-- [ ] Run `git status`.
-- [ ] Run `git diff`.
-- [ ] Stage the data dictionary file.
-- [ ] Commit with `docs: define visit date field`.
-- [ ] Push the branch.
 - [ ] Open a pull request.
 - [ ] Merge the PR after review.
 - [ ] Pull the latest `main`.
@@ -66,18 +83,36 @@ git status
 
 Use the same branch if a reviewer asks for a correction.
 
+```text
+review feedback → edit same branch → status → diff → add → commit → push → PR updates automatically
+```
+
 - [ ] Make the requested change locally.
 - [ ] Run `git status`.
 - [ ] Run `git diff`.
 - [ ] Stage the correction.
+- [ ] Run `git diff --staged`.
 - [ ] Commit with `docs: address review feedback`.
 - [ ] Push again.
 - [ ] Confirm the existing PR updated automatically.
+
+## Quick diagnosis table
+
+| If you see or think... | First safe check |
+| --- | --- |
+| “I do not know where I am.” | `git status` |
+| “Did I save the file?” | Save in editor, then `git status` |
+| “What exactly changed?” | `git diff` |
+| “What will be committed?” | `git diff --staged` |
+| “Did I create a commit?” | `git status` or `git log --oneline -5` |
+| “Did GitHub get my work?” | Check the branch/PR on GitHub after pushing |
+| “Can I push uncommitted changes?” | No. Push sends commits only. |
 
 ## Reflection questions
 
 - [ ] What command tells you what Git sees right now?
 - [ ] What command shows the exact text changed before staging?
+- [ ] What command shows the exact text staged for commit?
 - [ ] What command saves a local checkpoint?
 - [ ] What command sends committed work to GitHub?
 - [ ] What command brings GitHub changes down to your computer?

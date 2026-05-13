@@ -2,12 +2,16 @@
 
 A hands-on, checklist-based introduction to Git and GitHub for people who work with data, reports, scripts, and analysis files.
 
-This course is designed for learners who already have GitHub accounts but have not yet built confidence with day-to-day Git workflows. It avoids long lectures and focuses on small repeatable tasks.
+This course is designed for learners adopting Git while normal work is still moving: reports are due, staffing may be tight, and confidence matters. It avoids long lectures and focuses on small repeatable tasks that answer four practical questions:
+
+```text
+What does Git know? → What changed? → What does GitHub have? → What happens next?
+```
 
 ## Who this is for
 
 - Statisticians, analysts, epidemiologists, evaluators, and public health data teams
-- People who need to collaborate on scripts, documentation, reports, or reproducible analysis projects
+- People who collaborate on scripts, documentation, reports, SQL, or reproducible analysis projects
 - Beginners who have watched videos or attended group sessions but need guided practice that sticks
 
 ## What learners will be able to do
@@ -17,11 +21,13 @@ By the end, learners should be able to:
 - Explain the difference between Git and GitHub
 - Clone a repository from GitHub
 - Check repository status
-- Stage and commit changes
-- Push local work to GitHub
+- Review changes with `git diff`
+- Stage and commit specific changes
+- Understand that `git push` sends commits and does not commit file changes
+- Push local commits to GitHub
 - Pull updates from GitHub
 - Create and use branches
-- Open, update, and merge pull requests
+- Open, update, review, and merge pull requests
 - Follow a safe beginner workflow without losing work
 
 ## Website
@@ -37,6 +43,12 @@ npm install
 npm run dev
 ```
 
+Build check:
+
+```bash
+npm run build
+```
+
 ## How to use this course
 
 Each lesson is meant to be completed with Git open on the learner's computer. The goal is not to memorize commands. The goal is to practice the same workflow enough times that it becomes familiar.
@@ -46,8 +58,9 @@ Recommended format:
 1. Read the lesson goal.
 2. Complete the checklist.
 3. Run the commands yourself.
-4. Write down what happened.
-5. Repeat the practice task before moving on.
+4. Pause after each command and read what Git says.
+5. Write down what happened.
+6. Repeat the practice task before moving on.
 
 ## Lessons
 
@@ -63,6 +76,7 @@ Recommended format:
 ## Practice materials
 
 - [Practice checklist](exercises/practice-checklist.md)
+- [Template practice repositories](src/content/docs/practice/template-repositories.md)
 - [Facilitator guide](resources/facilitator-guide.md)
 - [Command cheat sheet](resources/command-cheat-sheet.md)
 - [Glossary](resources/glossary.md)
@@ -72,7 +86,7 @@ Recommended format:
 Git sticks when learners connect commands to a simple mental model:
 
 ```text
-edit files → check status → stage changes → commit locally → push to GitHub → open a PR
+update main → branch → edit → status → diff → add → commit → push → pull request
 ```
 
 For beginners, confidence matters more than speed. Encourage small commits, frequent `git status`, and lots of repetition.
