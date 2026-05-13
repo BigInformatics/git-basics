@@ -29,6 +29,8 @@ Git helps teams answer questions like:
 
 ## Core mental model
 
+![Diagram showing a project folder on your computer, Git saving local history as commits, and GitHub holding the shared remote repository for review and collaboration.](/git-basics/images/git-github-local-remote.svg)
+
 ```text
 Your computer = local repository
 GitHub = remote repository

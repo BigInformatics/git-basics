@@ -10,6 +10,8 @@ To **clone** a repository means to download a full working copy from GitHub to y
 
 After cloning, you have:
 
+![Diagram showing git clone copying a GitHub repository into a local folder on your computer, including project files, Git history, and the origin connection back to GitHub.](/git-basics/images/git-clone-mental-model.svg)
+
 - The project files
 - The Git history
 - A connection back to the GitHub repository

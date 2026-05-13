@@ -32,6 +32,8 @@ Git tracks three useful questions:
 
 ## Core workflow
 
+![Diagram of the Lesson 04 core workflow: edit, status, diff, add, status, diff staged, commit, and status again to confirm the result.](/git-basics/images/git-lesson04-core-workflow.svg)
+
 ```text
 edit → status → diff → add → status → diff --staged → commit → status
 ```

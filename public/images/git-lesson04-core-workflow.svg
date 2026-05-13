@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" role="img" aria-labelledby="title desc">
+  <title id="title">Lesson 04 core workflow for status, diff, staging, and commit</title>
+  <desc id="desc">Diagram showing the core workflow: edit, run git status, run git diff, use git add, run git status again, run git diff staged, commit, then run git status again to confirm the working tree is clean.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .bg { fill:#ffffff; }
+      .panel { fill:#f8fafc; stroke:#d1d5db; stroke-width:2; rx:30; }
+      .edit { fill:#eff6ff; stroke:#1d4ed8; }
+      .inspect { fill:#fffbeb; stroke:#b45309; }
+      .stage { fill:#ecfdf5; stroke:#047857; }
+      .commit { fill:#f5f3ff; stroke:#6d28d9; }
+      .confirm { fill:#ecfeff; stroke:#0f766e; }
+      .box { stroke-width:5; rx:20; }
+      .title { font: 700 38px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
+      .subtitle { font: 400 22px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
+      .label { font: 700 25px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
+      .small { font: 500 18px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
+      .tiny { font: 500 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
+      .arrow { stroke:#1f2937; stroke-width:5; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
+      .quiet { stroke:#6b7280; stroke-width:3; fill:none; stroke-linecap:round; stroke-dasharray:8 8; }
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%"/>
+  <text x="70" y="72" class="title">The calm loop: inspect before you save</text>
+  <text x="70" y="112" class="subtitle">Lesson 04 is about building a habit: check what Git sees before staging and before committing.</text>
+  <rect x="55" y="150" width="1390" height="470" class="panel"/>
+
+  <rect x="95" y="230" width="170" height="88" class="box edit"/>
+  <text x="180" y="264" text-anchor="middle" class="label">edit</text>
+  <text x="180" y="292" text-anchor="middle" class="tiny">change a file</text>
+
+  <rect x="315" y="230" width="170" height="88" class="box inspect"/>
+  <text x="400" y="264" text-anchor="middle" class="label">status</text>
+  <text x="400" y="292" text-anchor="middle" class="tiny">what Git sees</text>
+
+  <rect x="535" y="230" width="170" height="88" class="box inspect"/>
+  <text x="620" y="264" text-anchor="middle" class="label">diff</text>
+  <text x="620" y="292" text-anchor="middle" class="tiny">what changed</text>
+
+  <rect x="755" y="230" width="170" height="88" class="box stage"/>
+  <text x="840" y="264" text-anchor="middle" class="label">add</text>
+  <text x="840" y="292" text-anchor="middle" class="tiny">choose files</text>
+
+  <rect x="975" y="230" width="170" height="88" class="box inspect"/>
+  <text x="1060" y="264" text-anchor="middle" class="label">status</text>
+  <text x="1060" y="292" text-anchor="middle" class="tiny">confirm staged</text>
+
+  <rect x="755" y="425" width="220" height="88" class="box inspect"/>
+  <text x="865" y="459" text-anchor="middle" class="label">diff --staged</text>
+  <text x="865" y="487" text-anchor="middle" class="tiny">review next commit</text>
+
+  <rect x="485" y="425" width="190" height="88" class="box commit"/>
+  <text x="580" y="459" text-anchor="middle" class="label">commit</text>
+  <text x="580" y="487" text-anchor="middle" class="tiny">save checkpoint</text>
+
+  <rect x="245" y="425" width="170" height="88" class="box confirm"/>
+  <text x="330" y="459" text-anchor="middle" class="label">status</text>
+  <text x="330" y="487" text-anchor="middle" class="tiny">clean or next step</text>
+
+  <path d="M 278 274 L 302 274" class="arrow"/>
+  <path d="M 498 274 L 522 274" class="arrow"/>
+  <path d="M 718 274 L 742 274" class="arrow"/>
+  <path d="M 938 274 L 962 274" class="arrow"/>
+  <path d="M 1060 330 C 1060 380, 1010 425, 990 455" class="arrow"/>
+  <path d="M 742 469 L 690 469" class="arrow"/>
+  <path d="M 472 469 L 430 469" class="arrow"/>
+
+  <path d="M 335 425 C 380 370, 475 350, 575 335" class="quiet"/>
+  <text x="510" y="378" class="tiny">if something looks wrong, go back and edit</text>
+
+  <text x="95" y="675" class="small">Pattern to remember: look, compare, choose, look again, compare staged work, then save.</text>
+</svg>
