@@ -2,8 +2,8 @@
   <title id="title">Lesson 04 core workflow for status, diff, staging, and commit</title>
   <desc id="desc">Diagram showing the core workflow: edit, run git status, run git diff, use git add, run git status again, run git diff staged, commit, then run git status again to confirm the working tree is clean.</desc>
   <defs>
-    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M 0 0 L 7 3.5 L 0 7 z" fill="#1f2937" />
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
     </marker>
     <style>
       .bg { fill:#ffffff; }

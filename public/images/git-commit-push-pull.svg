@@ -2,8 +2,8 @@
   <title id="title">Commit, push, and pull mental model</title>
   <desc id="desc">Diagram distinguishing working files, staging, local commits, and GitHub. Push sends local commits to GitHub; pull brings shared commits back.</desc>
   <defs>
-    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M 0 0 L 7 3.5 L 0 7 z" fill="#1f2937" />
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
     </marker>
     <style>
       .bg { fill:#ffffff; }
