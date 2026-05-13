@@ -2,8 +2,8 @@
   <title id="title">Complete beginner Git workflow</title>
   <desc id="desc">Diagram showing the complete beginner workflow in four digestible phases: start current, work locally, share for review, then merge and update main.</desc>
   <defs>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
-      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 7 3.5 L 0 7 z" fill="#1f2937" />
     </marker>
     <style>
       .bg { fill:#ffffff; }
@@ -21,8 +21,8 @@
       .label { font: 700 21px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
       .small { font: 500 18px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
       .tiny { font: 500 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
-      .arrow { stroke:#1f2937; stroke-width:4.5; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
-      .return { stroke:#6b7280; stroke-width:4; fill:none; stroke-linecap:round; marker-end:url(#arrow); stroke-dasharray:10 10; }
+      .arrow { stroke:#1f2937; stroke-width:3.5; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
+      .return { stroke:#6b7280; stroke-width:3; fill:none; stroke-linecap:round; marker-end:url(#arrow); stroke-dasharray:10 10; }
     </style>
   </defs>
   <rect class="bg" width="100%" height="100%"/>
@@ -60,7 +60,7 @@
   <path d="M 795 280 L 808 280" class="arrow"/>
   <path d="M 900 280 L 955 280" class="arrow"/>
   <path d="M 1110 280 L 1125 280" class="arrow"/>
-  <path d="M 1207 330 C 1207 390, 520 390, 465 465" class="arrow"/>
+  <path d="M 1207 330 C 1207 390, 470 390, 390 515" class="arrow"/>
   <path d="M 530 515 L 545 515" class="arrow"/>
   <path d="M 705 515 L 720 515" class="arrow"/>
   <path d="M 880 515 L 895 515" class="arrow"/>

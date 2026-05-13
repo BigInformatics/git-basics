@@ -2,14 +2,14 @@
   <title id="title">Cloning a repository from GitHub to your computer</title>
   <desc id="desc">Diagram showing git clone copying a GitHub repository to a local folder on your computer, including project files, Git history, and the origin connection back to GitHub.</desc>
   <defs>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
-      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 7 3.5 L 0 7 z" fill="#1f2937" />
     </marker>
     <style>
       .bg { fill:#ffffff; }
       .panel { fill:#f8fafc; stroke:#d1d5db; stroke-width:2; rx:30; }
-      .remote { fill:#ecfdf5; stroke:#047857; stroke-width:5; rx:24; }
-      .local { fill:#eff6ff; stroke:#1d4ed8; stroke-width:5; rx:24; }
+      .remote { fill:#ecfdf5; stroke:#047857; stroke-width:3.5; rx:24; }
+      .local { fill:#eff6ff; stroke:#1d4ed8; stroke-width:3.5; rx:24; }
       .history { fill:#f5f3ff; stroke:#6d28d9; stroke-width:4; rx:18; }
       .connect { fill:#fffbeb; stroke:#b45309; stroke-width:4; rx:18; }
       .title { font: 700 38px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
@@ -17,8 +17,8 @@
       .label { font: 700 28px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
       .small { font: 500 20px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
       .tiny { font: 500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
-      .arrow { stroke:#1f2937; stroke-width:6; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
-      .return { stroke:#6b7280; stroke-width:4; fill:none; stroke-linecap:round; marker-end:url(#arrow); stroke-dasharray:10 10; }
+      .arrow { stroke:#1f2937; stroke-width:3; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
+      .return { stroke:#6b7280; stroke-width:3; fill:none; stroke-linecap:round; marker-end:url(#arrow); stroke-dasharray:10 10; }
     </style>
   </defs>
   <rect class="bg" width="100%" height="100%"/>

@@ -2,8 +2,8 @@
   <title id="title">Lesson 04 core workflow for status, diff, staging, and commit</title>
   <desc id="desc">Diagram showing the core workflow: edit, run git status, run git diff, use git add, run git status again, run git diff staged, commit, then run git status again to confirm the working tree is clean.</desc>
   <defs>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
-      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 7 3.5 L 0 7 z" fill="#1f2937" />
     </marker>
     <style>
       .bg { fill:#ffffff; }
@@ -13,13 +13,13 @@
       .stage { fill:#ecfdf5; stroke:#047857; }
       .commit { fill:#f5f3ff; stroke:#6d28d9; }
       .confirm { fill:#ecfeff; stroke:#0f766e; }
-      .box { stroke-width:5; rx:20; }
+      .box { stroke-width:3.5; rx:20; }
       .title { font: 700 38px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
       .subtitle { font: 400 22px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
       .label { font: 700 25px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
       .small { font: 500 18px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
       .tiny { font: 500 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
-      .arrow { stroke:#1f2937; stroke-width:5; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
+      .arrow { stroke:#1f2937; stroke-width:3.5; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
       .quiet { stroke:#6b7280; stroke-width:3; fill:none; stroke-linecap:round; stroke-dasharray:8 8; }
     </style>
   </defs>
