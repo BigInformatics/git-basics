@@ -4,6 +4,8 @@ sidebar:
   order: 1
 ---
 
+For the big picture, pair these commands with the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/). The infographic shows where each command fits in the safe collaboration loop.
+
 ## Where am I?
 
 ```bash

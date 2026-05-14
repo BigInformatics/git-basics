@@ -4,6 +4,8 @@
 
 Create a branch so you can work safely without changing `main` directly.
 
+![Concept card showing main, a feature branch, and the point where a pushed branch becomes shared work.](/git-basics/images/git-lesson06-concept-branching.png)
+
 ## What a branch is
 
 A **branch** is a separate workspace for a change.
@@ -19,12 +21,7 @@ your branch = your workspace for a proposed change
 
 ## Local and GitHub view
 
-```text
-your computer                         GitHub
--------------                         ------
-main                                  origin/main
-analysis/clarify-visit-query   --->   branch on GitHub after push
-```
+![Diagram showing main on your computer and origin/main on GitHub, plus a new local branch that appears on GitHub only after you push it.](/git-basics/images/git-local-github-branch-view.svg)
 
 A branch starts on your computer. It appears on GitHub after you push it.
 

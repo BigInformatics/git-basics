@@ -14,6 +14,9 @@ hero:
     - text: Template Repositories
       link: /git-basics/practice/template-repositories/
       variant: secondary
+    - text: GitHub Basics Infographic
+      link: /git-basics/resources/github-basics-infographic/
+      variant: secondary
 ---
 
 ## What this site teaches
@@ -67,6 +70,12 @@ working files → staging area → local commits  → push →  shared commits
 | Collaboration | Lessons 06–07 | Use branches and pull requests |
 | Repetition | Lesson 08 + checklist | Complete the full workflow several times |
 
+## Quick visual reference
+
+Start with the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/) to see the whole safe collaboration loop at once.
+
+![GitHub Basics infographic showing the safe collaboration loop from branch to pull request to review and merge.](/git-basics/images/github-basics-infographic.png)
+
 ## Lessons
 
 1. [What Git and GitHub Are](/git-basics/lessons/01-what-git-and-github-are/)
@@ -82,6 +91,7 @@ working files → staging area → local commits  → push →  shared commits
 
 - [Practice Checklist](/git-basics/exercises/practice-checklist/)
 - [Template Practice Repositories](/git-basics/practice/template-repositories/)
+- [GitHub Basics Infographic](/git-basics/resources/github-basics-infographic/)
 - [Command Cheat Sheet](/git-basics/resources/command-cheat-sheet/)
 - [Glossary](/git-basics/resources/glossary/)
 - [Facilitator Guide](/git-basics/resources/facilitator-guide/)

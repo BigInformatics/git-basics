@@ -8,7 +8,13 @@ sidebar:
 
 Practice the full Git/GitHub workflow from start to finish in a learner-owned practice repository.
 
+![Concept card showing the complete beginner workflow: sync, branch, change, push, review, merge, and sync again.](/git-basics/images/git-lesson08-concept-complete-workflow.png)
+
 By this point, the commands should start to feel less like separate facts and more like one repeatable work pattern.
+
+Use the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/) as the map for this lesson. Each checklist section below corresponds to one part of the safe collaboration loop.
+
+![GitHub Basics infographic showing the complete safe collaboration loop.](/git-basics/images/github-basics-infographic.png)
 
 ## Full workflow
 
