@@ -54,7 +54,7 @@ Scenario: improve one data dictionary entry so another analyst can understand a 
 Example file:
 
 ```text
-data-dictionary/patient_visits.md
+data-dictionary/fields.md
 ```
 
 Example branch:
@@ -133,7 +133,7 @@ git status
 Edit one data dictionary entry in:
 
 ```text
-data-dictionary/patient_visits.md
+data-dictionary/fields.md
 ```
 
 Keep the change small enough that a reviewer can understand it quickly.
@@ -169,7 +169,7 @@ Before continuing, answer:
 ### 6. Stage the change
 
 ```bash
-git add data-dictionary/patient_visits.md
+git add data-dictionary/fields.md
 ```
 
 Check the staged version:
@@ -236,7 +236,7 @@ If feedback is requested, stay on the same branch and make another commit:
 ```bash
 git status
 git diff
-git add data-dictionary/patient_visits.md
+git add data-dictionary/fields.md
 git diff --staged
 git commit -m "docs: address feedback"
 git push
