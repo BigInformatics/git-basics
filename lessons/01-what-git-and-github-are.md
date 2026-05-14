@@ -4,6 +4,14 @@
 
 Understand what Git and GitHub do, and why teams use them.
 
+![Concept card showing Git as local project history and GitHub as the shared place for review and collaboration.](/git-basics/images/git-lesson01-concept-what-git-and-github-are.png)
+
+## Big picture
+
+Keep the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/) nearby while you learn the vocabulary. The details will become familiar through practice, but the main loop is simple: branch, edit, commit, push, open a pull request, review, merge, then sync again.
+
+![GitHub Basics infographic showing the safe collaboration loop.](/git-basics/images/github-basics-infographic.png)
+
 ## Plain-language explanation
 
 **Git** is a tool on your computer that tracks changes to files over time.

@@ -8,6 +8,8 @@ sidebar:
 
 Create a branch so you can work safely without changing `main` directly.
 
+![Concept card showing main, a feature branch, and the point where a pushed branch becomes shared work.](/git-basics/images/git-lesson06-concept-branching.png)
+
 ## What a branch is
 
 A **branch** is a separate workspace for a change.

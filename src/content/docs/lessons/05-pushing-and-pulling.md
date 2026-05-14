@@ -8,6 +8,8 @@ sidebar:
 
 Send committed work to GitHub and bring other people's committed work from GitHub back to your computer.
 
+![Concept card showing local commits pushed to GitHub and shared commits pulled back to the computer.](/git-basics/images/git-lesson05-concept-pushing-and-pulling.png)
+
 The most important point in this lesson is simple: **`git push` sends commits. It does not commit file changes for you.**
 
 ## Mental model
