@@ -99,7 +99,7 @@ If Git lists changes, pause and decide whether they belong to this exercise befo
 In `git-basics-sql-practice`, open:
 
 ```text
-analysis-notes/findings.md
+analysis-notes/visit-count-notes.md
 ```
 
 Add one short note about the question an analysis should answer.
@@ -127,7 +127,7 @@ Expected shape:
 
 ```text
 Changes not staged for commit:
-  modified:   analysis-notes/findings.md
+  modified:   analysis-notes/visit-count-notes.md
 ```
 
 This means Git sees a saved file change, but the change is not staged yet.
@@ -160,7 +160,7 @@ Diffs use a consistent pattern:
 Run:
 
 ```bash
-git add analysis-notes/findings.md
+git add analysis-notes/visit-count-notes.md
 ```
 
 - [ ] I staged the file.
@@ -178,7 +178,7 @@ Expected shape from `git status`:
 
 ```text
 Changes to be committed:
-  modified:   analysis-notes/findings.md
+  modified:   analysis-notes/visit-count-notes.md
 ```
 
 `git diff --staged` should show the same intentional change you reviewed earlier.

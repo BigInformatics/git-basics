@@ -35,9 +35,9 @@ If `git switch` is not available, use `git checkout main`.
 | Step | Command or action |
 | --- | --- |
 | Create branch | `git switch -c docs/add-analysis-note` |
-| Edit | Open `analysis-notes/findings.md` |
+| Edit | Open `analysis-notes/visit-count-notes.md` |
 | Inspect | `git status` then `git diff` |
-| Stage | `git add analysis-notes/findings.md` |
+| Stage | `git add analysis-notes/visit-count-notes.md` |
 | Check staged work | `git diff --staged` |
 | Commit | `git commit -m "docs: add analysis note"` |
 | Push | `git push -u origin docs/add-analysis-note` |
@@ -69,9 +69,9 @@ If `git switch` is not available, use `git checkout main`.
 | Step | Command or action |
 | --- | --- |
 | Create branch | `git switch -c metadata/define-visit-date` |
-| Edit | Open `data-dictionary/patient_visits.md` |
+| Edit | Open `data-dictionary/fields.md` |
 | Inspect | `git status` then `git diff` |
-| Stage | `git add data-dictionary/patient_visits.md` |
+| Stage | `git add data-dictionary/fields.md` |
 | Check staged work | `git diff --staged` |
 | Commit | `git commit -m "docs: define visit date field"` |
 | Push | `git push -u origin metadata/define-visit-date` |

@@ -4,6 +4,8 @@ Use this checklist inside a learner-owned copy of a practice template, preferabl
 
 The same pattern should be repeated several times with small changes. The objective is comfort with the workflow, not speed.
 
+Keep the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/) open while practicing. When you get stuck, find your current step on the visual loop and run `git status` before deciding what to do next.
+
 ## The repeatable pattern
 
 ```text
@@ -29,9 +31,9 @@ If `git switch` is not available, use `git checkout main`.
 | Step | Command or action |
 | --- | --- |
 | Create branch | `git switch -c docs/add-analysis-note` |
-| Edit | Open `analysis-notes/findings.md` |
+| Edit | Open `analysis-notes/visit-count-notes.md` |
 | Inspect | `git status` then `git diff` |
-| Stage | `git add analysis-notes/findings.md` |
+| Stage | `git add analysis-notes/visit-count-notes.md` |
 | Check staged work | `git diff --staged` |
 | Commit | `git commit -m "docs: add analysis note"` |
 | Push | `git push -u origin docs/add-analysis-note` |
@@ -63,9 +65,9 @@ If `git switch` is not available, use `git checkout main`.
 | Step | Command or action |
 | --- | --- |
 | Create branch | `git switch -c metadata/define-visit-date` |
-| Edit | Open `data-dictionary/patient_visits.md` |
+| Edit | Open `data-dictionary/fields.md` |
 | Inspect | `git status` then `git diff` |
-| Stage | `git add data-dictionary/patient_visits.md` |
+| Stage | `git add data-dictionary/fields.md` |
 | Check staged work | `git diff --staged` |
 | Commit | `git commit -m "docs: define visit date field"` |
 | Push | `git push -u origin metadata/define-visit-date` |
