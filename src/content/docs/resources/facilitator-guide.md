@@ -29,35 +29,39 @@ Use a calm, practical tone.
 | What changed? | diff output and PR Files changed tab |
 | What happens next? | checklist step, status message, PR review state |
 
+Use the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/) as a shared visual map throughout the course. It gives learners a stable picture of where each command fits in the collaboration loop.
+
 ## Recommended session structure
 
 ### Session 1 — Orientation and first commit
 
 Time: 45–60 minutes
 
-1. Explain Git vs GitHub using the local/remote model.
-2. Confirm everyone has Git installed.
-3. Confirm everyone can access GitHub.
-4. Clone a practice repository.
-5. Make one small analysis-note change.
-6. Run `git status` and `git diff` together.
-7. Stage and commit the change.
-8. Emphasize: the commit is local until pushed.
-9. Push the commit if using a learner-owned repo.
+1. Open the GitHub Basics infographic and preview the full collaboration loop.
+2. Explain Git vs GitHub using the local/remote model.
+3. Confirm everyone has Git installed.
+4. Confirm everyone can access GitHub.
+5. Clone a practice repository.
+6. Make one small analysis-note change.
+7. Run `git status` and `git diff` together.
+8. Stage and commit the change.
+9. Emphasize: the commit is local until pushed.
+10. Push the commit if using a learner-owned repo.
 
 ### Session 2 — Branches and pull requests
 
 Time: 45–60 minutes
 
-1. Start from an updated `main` branch.
-2. Create a new branch.
-3. Make a small SQL comment or data dictionary change.
-4. Run `git status`, `git diff`, and `git diff --staged`.
-5. Commit and push the branch.
-6. Open a pull request.
-7. Review one another's PRs using the Files changed tab.
-8. Merge the PR.
-9. Pull the updated `main` branch.
+1. Revisit the infographic and name the steps learners practiced last time.
+2. Start from an updated `main` branch.
+3. Create a new branch.
+4. Make a small SQL comment or data dictionary change.
+5. Run `git status`, `git diff`, and `git diff --staged`.
+6. Commit and push the branch.
+7. Open a pull request.
+8. Review one another's PRs using the Files changed tab.
+9. Merge the PR.
+10. Pull the updated `main` branch.
 
 ### Session 3 — Repetition and troubleshooting
 

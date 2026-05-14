@@ -12,6 +12,8 @@ Open a pull request so someone can review your branch before it is merged.
 
 A **pull request**, or **PR**, is a request to merge one branch into another branch.
 
+In the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/), the PR is the bridge between **Push** and **Review + CI**. This is where the team checks the work before it becomes part of `main`.
+
 Most often:
 
 ```text

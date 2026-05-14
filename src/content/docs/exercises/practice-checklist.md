@@ -8,6 +8,8 @@ Use this checklist inside a learner-owned copy of a practice template, preferabl
 
 The same pattern should be repeated several times with small changes. The objective is comfort with the workflow, not speed.
 
+Keep the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/) open while practicing. When you get stuck, find your current step on the visual loop and run `git status` before deciding what to do next.
+
 ## The repeatable pattern
 
 ```text

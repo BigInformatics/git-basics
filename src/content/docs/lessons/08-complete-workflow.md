@@ -10,6 +10,10 @@ Practice the full Git/GitHub workflow from start to finish in a learner-owned pr
 
 By this point, the commands should start to feel less like separate facts and more like one repeatable work pattern.
 
+Use the [GitHub Basics infographic](/git-basics/resources/github-basics-infographic/) as the map for this lesson. Each checklist section below corresponds to one part of the safe collaboration loop.
+
+![GitHub Basics infographic showing the complete safe collaboration loop.](/git-basics/images/github-basics-infographic.png)
+
 ## Full workflow
 
 ![Diagram of the complete beginner Git workflow: start updates, branch, edit, inspect, stage, commit, push, PR, review, merge, and update main.](/git-basics/images/git-complete-workflow.svg)

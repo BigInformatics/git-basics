@@ -40,6 +40,7 @@ export default defineConfig({
         {
           label: 'Resources',
           items: [
+            { label: 'GitHub Basics Infographic', slug: 'resources/github-basics-infographic' },
             { label: 'Command Cheat Sheet', slug: 'resources/command-cheat-sheet' },
             { label: 'Glossary', slug: 'resources/glossary' },
             { label: 'Facilitator Guide', slug: 'resources/facilitator-guide' },
