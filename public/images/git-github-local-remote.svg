@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Git and GitHub local and remote repository mental model</title>
+  <desc id="desc">Diagram showing one project folder tracked by Git on your computer, saved as local commits, then shared to GitHub as a remote repository where review and collaboration happen.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .bg { fill:#ffffff; }
+      .panel { fill:#f8fafc; stroke:#d1d5db; stroke-width:2; rx:30; }
+      .local { fill:#eff6ff; stroke:#1d4ed8; stroke-width:3.5; rx:24; }
+      .git { fill:#f5f3ff; stroke:#6d28d9; stroke-width:3.5; rx:24; }
+      .remote { fill:#ecfdf5; stroke:#047857; stroke-width:3.5; rx:24; }
+      .review { fill:#fffbeb; stroke:#b45309; stroke-width:4; rx:20; }
+      .title { font: 700 38px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
+      .subtitle { font: 400 22px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
+      .label { font: 700 27px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
+      .small { font: 500 20px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
+      .tiny { font: 500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
+      .arrow { stroke:#1f2937; stroke-width:3.5; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
+      .soft-arrow { stroke:#6b7280; stroke-width:3; fill:none; stroke-linecap:round; marker-end:url(#arrow); stroke-dasharray:10 10; }
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%"/>
+  <text x="70" y="72" class="title">One project, two useful copies</text>
+  <text x="70" y="112" class="subtitle">Git tracks history on your computer. GitHub provides the shared copy for review and collaboration.</text>
+
+  <rect x="55" y="155" width="1290" height="470" class="panel"/>
+
+  <rect x="105" y="245" width="285" height="170" class="local"/>
+  <text x="247" y="300" text-anchor="middle" class="label">project folder</text>
+  <text x="247" y="340" text-anchor="middle" class="small">files you edit</text>
+  <text x="247" y="370" text-anchor="middle" class="tiny">scripts, notes, docs, data dictionaries</text>
+
+  <rect x="535" y="245" width="285" height="170" class="git"/>
+  <text x="677" y="300" text-anchor="middle" class="label">Git</text>
+  <text x="677" y="340" text-anchor="middle" class="small">local history</text>
+  <text x="677" y="370" text-anchor="middle" class="tiny">saved checkpoints on your computer</text>
+
+  <rect x="965" y="245" width="285" height="170" class="remote"/>
+  <text x="1107" y="300" text-anchor="middle" class="label">GitHub</text>
+  <text x="1107" y="340" text-anchor="middle" class="small">remote repository</text>
+  <text x="1107" y="370" text-anchor="middle" class="tiny">shared copy for the team</text>
+
+  <path d="M 410 330 L 515 330" class="arrow"/>
+  <text x="462" y="302" text-anchor="middle" class="small">commit</text>
+  <path d="M 840 330 L 945 330" class="arrow"/>
+  <text x="892" y="302" text-anchor="middle" class="small">push</text>
+  <path d="M 965 455 C 835 535, 700 535, 555 455" class="soft-arrow"/>
+  <text x="762" y="535" text-anchor="middle" class="small">pull brings shared history back</text>
+
+  <rect x="965" y="475" width="285" height="85" class="review"/>
+  <text x="1107" y="510" text-anchor="middle" class="label">review space</text>
+  <text x="1107" y="540" text-anchor="middle" class="tiny">pull requests happen here</text>
+
+  <text x="105" y="685" class="small">Core idea: your computer is where you work; Git is how you save history; GitHub is where the team shares and reviews it.</text>
+</svg>

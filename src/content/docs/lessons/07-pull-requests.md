@@ -26,6 +26,8 @@ A PR gives the team a place to:
 - Run automated checks
 - Approve and merge work
 
+For analysts and statisticians, a PR is also a record of why an analysis note, query, or data dictionary changed.
+
 ## Checklist
 
 ### 1. Push your branch
@@ -40,7 +42,7 @@ git push -u origin branch-name
 
 ### 2. Open the repository in GitHub
 
-- [ ] I opened the repository page.
+- [ ] I opened the practice repository page.
 - [ ] I see my recently pushed branch.
 
 ### 3. Start the pull request
@@ -54,7 +56,7 @@ git push -u origin branch-name
 Example:
 
 ```text
-docs: add practice notes to README
+docs: clarify visit count query
 ```
 
 - [ ] My PR title clearly says what changed.
@@ -65,13 +67,13 @@ Use this template:
 
 ```markdown
 ## Summary
-- 
-- 
+- Clarifies what the visit count query is intended to measure.
+- Keeps the SQL logic unchanged.
 
-## Testing or review notes
+## Review notes
 - [ ] I reviewed the changed files
 - [ ] I ran `git status`
-- [ ] I confirmed the change appears as expected
+- [ ] I checked `git diff` before committing
 ```
 
 - [ ] I wrote a short PR description.
@@ -85,10 +87,13 @@ Use this template:
 If someone asks for a change:
 
 1. Make the change locally on the same branch.
-2. Commit it.
-3. Push it.
+2. Review it.
+3. Commit it.
+4. Push it.
 
 ```bash
+git status
+git diff
 git add filename
 git commit -m "docs: address PR feedback"
 git push
@@ -104,3 +109,4 @@ The PR updates automatically.
 - [ ] I can explain what branch is being merged into what branch.
 - [ ] I can update a PR by pushing another commit to the same branch.
 - [ ] I understand that PRs are for review and discussion.
+- [ ] I understand that PRs help preserve context for analysis and documentation changes.

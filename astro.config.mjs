@@ -33,6 +33,7 @@ export default defineConfig({
         {
           label: 'Practice',
           items: [
+            { label: 'Template Repositories', slug: 'practice/template-repositories' },
             { label: 'Practice Checklist', slug: 'exercises/practice-checklist' },
           ],
         },

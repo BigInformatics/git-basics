@@ -114,6 +114,16 @@ git push
 
 Sends local commits to GitHub.
 
+Important: `git push` sends commits only. It does not stage files, create commits, or send uncommitted edits.
+
+## Check what will be committed
+
+```bash
+git diff --staged
+```
+
+Shows staged line-by-line changes before you commit.
+
 ## View commit history
 
 ```bash

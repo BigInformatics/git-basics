@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700" role="img" aria-labelledby="title desc">
+  <title id="title">Git working tree, staging area, and local history</title>
+  <desc id="desc">Diagram showing working tree moving to staging area with git add, then to local history with git commit.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .bg { fill:#ffffff; }
+      .panel { fill:#f8fafc; stroke:#d1d5db; stroke-width:2; rx:28; }
+      .box { fill:#ffffff; stroke:#1f2937; stroke-width:4; rx:18; }
+      .box-blue { fill:#eff6ff; stroke:#1d4ed8; }
+      .box-green { fill:#ecfdf5; stroke:#047857; }
+      .box-teal { fill:#ecfeff; stroke:#0f766e; }
+      .box-amber { fill:#fffbeb; stroke:#b45309; }
+      .box-purple { fill:#f5f3ff; stroke:#6d28d9; }
+      .title { font: 700 38px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
+      .subtitle { font: 400 22px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
+      .label { font: 700 25px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
+      .small { font: 500 18px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
+      .tiny { font: 500 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
+      .arrow { stroke:#1f2937; stroke-width:3.5; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
+      .dash { stroke-dasharray:12 10; }
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%"/>
+  <text x="70" y="70" class="title">Three places Git asks you to keep separate</text>
+  <text x="70" y="108" class="subtitle">Edit files, choose what belongs in the next checkpoint, then save that checkpoint locally.</text>
+  <rect x="55" y="150" width="1290" height="365" class="panel"/>
+  <rect x="105" y="230" width="310" height="150" class="box box-blue"/>
+  <text x="260" y="292" text-anchor="middle" class="label">working tree</text>
+  <text x="260" y="330" text-anchor="middle" class="small">files on disk</text>
+  <text x="260" y="356" text-anchor="middle" class="tiny">where edits happen</text>
+  <rect x="545" y="230" width="310" height="150" class="box box-green"/>
+  <text x="700" y="292" text-anchor="middle" class="label">staging area</text>
+  <text x="700" y="330" text-anchor="middle" class="small">next commit</text>
+  <text x="700" y="356" text-anchor="middle" class="tiny">what you selected</text>
+  <rect x="985" y="230" width="310" height="150" class="box box-purple"/>
+  <text x="1140" y="292" text-anchor="middle" class="label">local history</text>
+  <text x="1140" y="330" text-anchor="middle" class="small">saved checkpoints</text>
+  <text x="1140" y="356" text-anchor="middle" class="tiny">on your computer</text>
+  <path d="M 430 305 L 520 305" class="arrow"/>
+  <text x="475" y="282" text-anchor="middle" class="small">git add</text>
+  <path d="M 870 305 L 960 305" class="arrow"/>
+  <text x="915" y="282" text-anchor="middle" class="small">git commit</text>
+  <text x="105" y="575" class="small">Calm check: status tells you where work is; diff tells you what changed.</text>
+</svg>

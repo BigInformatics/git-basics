@@ -10,10 +10,23 @@ A **branch** is a separate workspace for a change.
 
 Instead of editing `main` directly, create a branch for your work.
 
+![Diagram showing main as the stable shared line and a branch splitting off as a safe workspace for one proposed change.](/git-basics/images/git-branch-workspace.svg)
+
 ```text
-main = official shared version
+main        = official shared version
 your branch = your workspace for a proposed change
 ```
+
+## Local and GitHub view
+
+```text
+your computer                         GitHub
+-------------                         ------
+main                                  origin/main
+analysis/clarify-visit-query   --->   branch on GitHub after push
+```
+
+A branch starts on your computer. It appears on GitHub after you push it.
 
 ## Checklist
 
@@ -45,16 +58,16 @@ git pull
 
 ### 3. Create a new branch
 
-Run:
+For a SQL query documentation change, run:
 
 ```bash
-git checkout -b docs/practice-change
+git checkout -b analysis/clarify-visit-query
 ```
 
 or:
 
 ```bash
-git switch -c docs/practice-change
+git switch -c analysis/clarify-visit-query
 ```
 
 - [ ] I created and switched to a new branch.
@@ -77,8 +90,9 @@ Use the workflow from Lesson 04:
 
 ```bash
 git status
-git add filename
-git commit -m "docs: make practice branch change"
+git diff
+git add queries/01-count-visits.sql
+git commit -m "docs: clarify visit count query"
 ```
 
 - [ ] I committed a change on my branch.
@@ -88,7 +102,7 @@ git commit -m "docs: make practice branch change"
 Run:
 
 ```bash
-git push -u origin docs/practice-change
+git push -u origin analysis/clarify-visit-query
 ```
 
 - [ ] My branch exists on GitHub.
@@ -96,11 +110,13 @@ git push -u origin docs/practice-change
 ## Branch naming examples
 
 ```text
-docs/update-readme
-analysis/add-summary-table
-fix/correct-date-label
-feature/add-data-dictionary
+docs/add-analysis-note
+analysis/clarify-visit-query
+metadata/define-visit-date
+fix/correct-county-label
 ```
+
+Use names that describe the change. Avoid branch names like `updates`, `work`, or `stuff`.
 
 ## Completion check
 
@@ -108,3 +124,4 @@ feature/add-data-dictionary
 - [ ] I can switch branches.
 - [ ] I can commit on a branch.
 - [ ] I can push a branch to GitHub.
+- [ ] I understand that a branch is safer than editing `main` directly.

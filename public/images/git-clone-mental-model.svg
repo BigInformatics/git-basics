@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Cloning a repository from GitHub to your computer</title>
+  <desc id="desc">Diagram showing git clone copying a GitHub repository to a local folder on your computer, including project files, Git history, and the origin connection back to GitHub.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .bg { fill:#ffffff; }
+      .panel { fill:#f8fafc; stroke:#d1d5db; stroke-width:2; rx:30; }
+      .remote { fill:#ecfdf5; stroke:#047857; stroke-width:3.5; rx:24; }
+      .local { fill:#eff6ff; stroke:#1d4ed8; stroke-width:3.5; rx:24; }
+      .history { fill:#f5f3ff; stroke:#6d28d9; stroke-width:4; rx:18; }
+      .connect { fill:#fffbeb; stroke:#b45309; stroke-width:4; rx:18; }
+      .title { font: 700 38px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
+      .subtitle { font: 400 22px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
+      .label { font: 700 28px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#111827; }
+      .small { font: 500 20px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#374151; }
+      .tiny { font: 500 16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; fill:#4b5563; }
+      .arrow { stroke:#1f2937; stroke-width:3; fill:none; stroke-linecap:round; marker-end:url(#arrow); }
+      .return { stroke:#6b7280; stroke-width:3; fill:none; stroke-linecap:round; marker-end:url(#arrow); stroke-dasharray:10 10; }
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%"/>
+  <text x="70" y="72" class="title">Cloning makes a working copy on your computer</text>
+  <text x="70" y="112" class="subtitle">It is not just a file download: Git also brings history and remembers where the copy came from.</text>
+  <rect x="55" y="155" width="1290" height="490" class="panel"/>
+
+  <rect x="105" y="245" width="350" height="200" class="remote"/>
+  <text x="280" y="300" text-anchor="middle" class="label">GitHub repository</text>
+  <text x="280" y="340" text-anchor="middle" class="small">shared remote copy</text>
+  <text x="280" y="372" text-anchor="middle" class="tiny">files + history in the training account</text>
+
+  <rect x="945" y="245" width="350" height="200" class="local"/>
+  <text x="1120" y="300" text-anchor="middle" class="label">local folder</text>
+  <text x="1120" y="340" text-anchor="middle" class="small">your working copy</text>
+  <text x="1120" y="372" text-anchor="middle" class="tiny">where you edit and run Git commands</text>
+
+  <path d="M 485 345 C 620 260, 775 260, 910 345" class="arrow"/>
+  <text x="700" y="270" text-anchor="middle" class="label">git clone</text>
+
+  <rect x="518" y="430" width="165" height="85" class="history"/>
+  <text x="600" y="464" text-anchor="middle" class="small">files</text>
+  <text x="600" y="492" text-anchor="middle" class="tiny">project content</text>
+  <rect x="705" y="430" width="165" height="85" class="history"/>
+  <text x="787" y="464" text-anchor="middle" class="small">history</text>
+  <text x="787" y="492" text-anchor="middle" class="tiny">past commits</text>
+  <rect x="892" y="430" width="165" height="85" class="connect"/>
+  <text x="974" y="464" text-anchor="middle" class="small">origin</text>
+  <text x="974" y="492" text-anchor="middle" class="tiny">connection back</text>
+
+  <path d="M 1010 535 C 820 600, 570 600, 390 535" class="return"/>
+  <text x="700" y="610" text-anchor="middle" class="small">After cloning, push and pull use the remembered GitHub connection.</text>
+</svg>
