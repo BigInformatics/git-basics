@@ -138,10 +138,10 @@ data-dictionary/fields.md
 
 Keep the change small enough that a reviewer can understand it quickly.
 
-Example revision:
+Example revision, matching the table format in the template:
 
 ```markdown
-- `visit_date`: Calendar date when the visit occurred, recorded in YYYY-MM-DD format.
+| `visit_date` | Calendar date when a fictional visit occurred, recorded in YYYY-MM-DD format | `2024-01-15` |
 ```
 
 - [ ] I made one small change.
