@@ -76,7 +76,7 @@ Recommended format:
 ## Practice materials
 
 - [Practice checklist](exercises/practice-checklist.md)
-- [Template practice repositories](src/content/docs/practice/template-repositories.md)
+- [Template practice repositories](practice/template-repositories.md)
 - [Facilitator guide](resources/facilitator-guide.md)
 - [Command cheat sheet](resources/command-cheat-sheet.md)
 - [Glossary](resources/glossary.md)

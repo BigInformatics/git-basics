@@ -1,8 +1,4 @@
----
-title: 'Template Practice Repositories'
-sidebar:
-  order: 1
----
+# Template Practice Repositories
 
 Use template repositories when learners need their own safe copy of a project.
 
