@@ -83,9 +83,7 @@ If `git switch` is not available, use `git checkout main`.
 
 Use the same branch if a reviewer asks for a correction.
 
-```text
-review feedback → edit same branch → status → diff → add → commit → push → PR updates automatically
-```
+![Concept card showing the review feedback workflow: edit same branch, status, diff, add, commit, push, PR updates automatically.](/git-basics/images/pr.png)
 
 - [ ] Make the requested change locally.
 - [ ] Run `git status`.
