@@ -8,7 +8,7 @@ sidebar:
 
 Copy a GitHub repository to your computer and confirm that Git can see it correctly.
 
-![Concept card showing a GitHub repository copied into a local folder with files, history, and the origin connection.](/git-basics/images/git-lesson03-concept-cloning-a-repository.png)
+![Concept card showing a GitHub repository copied into a local folder with files, history, and the origin connection.](/git-basics/images/git-basics-lesson-03-cloning-a-repository.png)
 
 ## What cloning means
 
@@ -16,7 +16,7 @@ To **clone** a repository means to download a full working copy from GitHub to y
 
 After cloning, you have:
 
-![Diagram showing git clone copying a GitHub repository into a local folder on your computer, including project files, Git history, and the origin connection back to GitHub.](/git-basics/images/git-clone-mental-model.svg)
+![Diagram showing git clone copying a GitHub repository into a local folder on your computer, including project files, Git history, and the origin connection back to GitHub.](/git-basics/images/git-clone-mental-model.png)
 
 - The project files
 - The Git history

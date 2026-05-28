@@ -33,12 +33,11 @@ Git helps teams answer questions like:
 
 ## Core mental model
 
-![Diagram showing a project folder on your computer, Git saving local history as commits, and GitHub holding the shared remote repository for review and collaboration.](/git-basics/images/git-github-local-remote.svg)
+![Diagram showing a project folder on your computer, Git saving local history as commits, and GitHub holding the shared remote repository for review and collaboration.](/git-basics/images/git-github-local-remote.png)
 
-```text
-Your computer = local repository
-GitHub = remote repository
-```
+## Local vs. Remote 
+
+![Diagram showing a project folder on your computer, Git saving local history as commits, and GitHub holding the shared remote repository for review and collaboration.](/git-basics/images/git-lesson01-local-and-remote.png)
 
 You make changes locally, save them in Git, then send them to GitHub.
 

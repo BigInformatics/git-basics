@@ -8,7 +8,7 @@ sidebar:
 
 Open a pull request so someone can review your branch before it is merged.
 
-![Concept card showing a pull request as the review bridge from a branch into main.](/git-basics/images/git-lesson07-concept-pull-requests.png)
+![Concept card showing a pull request as the review bridge from a branch into main.](/git-basics/images/git-basics-lesson-07-pull-requests.png)
 
 ## What a pull request is
 

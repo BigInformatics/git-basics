@@ -8,7 +8,7 @@ sidebar:
 
 Understand what Git and GitHub do, and why teams use them.
 
-![Concept card showing Git as local project history and GitHub as the shared place for review and collaboration.](/git-basics/images/git-lesson01-concept-what-git-and-github-are.png)
+![Concept card showing Git as local project history and GitHub as the shared place for review and collaboration.](/git-basics/images/git-basics-lesson-01-what-git-and-github-do.png)
 
 ## Big picture
 
@@ -37,12 +37,11 @@ Git helps teams answer questions like:
 
 ## Core mental model
 
-![Diagram showing a project folder on your computer, Git saving local history as commits, and GitHub holding the shared remote repository for review and collaboration.](/git-basics/images/git-github-local-remote.svg)
+![Diagram showing a project folder on your computer, Git saving local history as commits, and GitHub holding the shared remote repository for review and collaboration.](/git-basics/images/git-github-local-remote.png)
 
-```text
-Your computer = local repository
-GitHub = remote repository
-```
+## Local vs. Remote 
+
+![Diagram showing a project folder on your computer, Git saving local history as commits, and GitHub holding the shared remote repository for review and collaboration.](/git-basics/images/git-lesson01-local-and-remote.png)
 
 You make changes locally, save them in Git, then send them to GitHub.
 

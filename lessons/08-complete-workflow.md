@@ -14,7 +14,7 @@ Use the [GitHub Basics infographic](/git-basics/resources/github-basics-infograp
 
 ## Full workflow
 
-![Diagram of the complete beginner Git workflow: start updates, branch, edit, inspect, stage, commit, push, PR, review, merge, and update main.](/git-basics/images/git-complete-workflow.svg)
+![Diagram of the complete beginner Git workflow: start updates, branch, edit, inspect, stage, commit, push, PR, review, merge, and update main.](/git-basics/images/git-complete-workflow.png)
 
 ```text
 start updates → branch → edit → inspect → stage → commit → push → PR → review → merge → update main

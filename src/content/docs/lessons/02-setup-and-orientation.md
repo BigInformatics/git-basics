@@ -8,7 +8,7 @@ sidebar:
 
 Confirm Git is installed and configured with your name and email.
 
-![Concept card showing setup checks: Git installed, identity configured, and terminal oriented inside the repository.](/git-basics/images/git-lesson02-concept-setup-and-orientation.png)
+![Concept card showing setup checks: Git installed, identity configured, and terminal oriented inside the repository.](/git-basics/images/git-basics-lesson-02-setup-and-first-orientation.png)
 
 ## Checklist
 

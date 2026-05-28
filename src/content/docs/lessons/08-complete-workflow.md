@@ -8,7 +8,7 @@ sidebar:
 
 Practice the full Git/GitHub workflow from start to finish in a learner-owned practice repository.
 
-![Concept card showing the complete beginner workflow: sync, branch, change, push, review, merge, and sync again.](/git-basics/images/git-lesson08-concept-complete-workflow.png)
+![Concept card showing the complete beginner workflow: sync, branch, change, push, review, merge, and sync again.](/git-basics/images/git-basics-lesson-08-complete-beginner-workflow.png)
 
 By this point, the commands should start to feel less like separate facts and more like one repeatable work pattern.
 
@@ -18,11 +18,7 @@ Use the [GitHub Basics infographic](/git-basics/resources/github-basics-infograp
 
 ## Full workflow
 
-![Diagram of the complete beginner Git workflow: start updates, branch, edit, inspect, stage, commit, push, PR, review, merge, and update main.](/git-basics/images/git-complete-workflow.svg)
-
-```text
-start updates → branch → edit → inspect → stage → commit → push → PR → review → merge → update main
-```
+![Diagram of the complete beginner Git workflow: start updates, branch, edit, inspect, stage, commit, push, PR, review, merge, and update main.](/git-basics/images/git-complete-workflow.png)
 
 More explicitly, think of the workflow in four small phases:
 

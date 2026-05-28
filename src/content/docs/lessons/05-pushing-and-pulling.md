@@ -8,20 +8,12 @@ sidebar:
 
 Send committed work to GitHub and bring other people's committed work from GitHub back to your computer.
 
-![Concept card showing local commits pushed to GitHub and shared commits pulled back to the computer.](/git-basics/images/git-lesson05-concept-pushing-and-pulling.png)
-
 The most important point in this lesson is simple: **`git push` sends commits. It does not commit file changes for you.**
 
 ## Mental model
 
-![Diagram distinguishing working files, staging, local commits, and GitHub. Commit creates local history; push sends committed work to GitHub; pull brings shared commits back.](/git-basics/images/git-commit-push-pull.svg)
+![Diagram distinguishing working files, staging, local commits, and GitHub. Commit creates local history; push sends committed work to GitHub; pull brings shared commits back.](/git-basics/images/git-commit-push-pull.png)
 
-```text
-Your computer                                      GitHub
--------------                                      ------
-working files --add--> staging --commit--> local commits --push--> remote commits
-                                             remote commits <--pull-- GitHub updates
-```
 
 | Place | What lives there | Command that moves work |
 | --- | --- | --- |

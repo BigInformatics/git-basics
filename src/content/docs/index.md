@@ -25,18 +25,9 @@ This site helps analysts, statisticians, epidemiologists, evaluators, and public
 
 It is built for people adopting Git while real work is still moving: reports are due, staffing is tight, and nobody needs extra drama from their tools. The course uses small, repeatable tasks so learners can build calm working habits.
 
-```text
-start updated → branch → edit → inspect → stage → commit → push → PR → update main
-```
-
 ## The core mental model
 
-```text
-Your computer                                           GitHub
--------------                                           ------
-working files → staging area → local commits  → push →  shared commits
-                                      shared commits ← pull ← reviewed work
-```
+![Diagram distinguishing working files, staging, local commits, and GitHub. Commit creates local history; push sends committed work to GitHub; pull brings shared commits back.](/git-basics/images/git-commit-push-pull.png)
 
 | Learner question | Git/GitHub idea | Command or place to check |
 | --- | --- | --- |

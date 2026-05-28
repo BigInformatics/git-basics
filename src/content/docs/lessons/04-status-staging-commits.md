@@ -8,7 +8,7 @@ sidebar:
 
 Make one small change in the practice repository, inspect what changed, and save it in Git history as a commit.
 
-![Concept card showing edits moving from working files to staging and then into local Git history as a commit.](/git-basics/images/git-lesson04-concept-status-staging-commits.png)
+![Concept card showing edits moving from working files to staging and then into local Git history as a commit.](/git-basics/images/git-basics-lesson-04-status-staging-and-commits.png)
 
 This lesson is deliberately slow. The skill is not typing commands quickly; the skill is knowing what Git knows before you move to the next step.
 
@@ -16,11 +16,6 @@ This lesson is deliberately slow. The skill is not typing commands quickly; the 
 
 ![Diagram showing work moving from the working tree, to the staging area with git add, and then to local Git history with git commit.](/git-basics/images/git-three-places.svg)
 
-```text
-Your files on disk          Staging area              Local Git history
-------------------          ------------              -----------------
-working tree       --add-->  next commit     --commit--> saved checkpoint
-```
 
 Git tracks three useful questions:
 
@@ -34,11 +29,8 @@ Git tracks three useful questions:
 
 ## Core workflow
 
-![Diagram of the Lesson 04 core workflow: edit, status, diff, add, status, diff staged, commit, and status again to confirm the result.](/git-basics/images/git-lesson04-core-workflow.svg)
+![Diagram of the Lesson 04 core workflow: edit, status, diff, add, status, diff staged, commit, and status again to confirm the result.](/git-basics/images/git-lesson04-core-workflow.png)
 
-```text
-edit → status → diff → add → status → diff --staged → commit → status
-```
 
 ## What these commands mean
 

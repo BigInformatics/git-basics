@@ -10,7 +10,7 @@ The most important point in this lesson is simple: **`git push` sends commits. I
 
 ## Mental model
 
-![Diagram distinguishing working files, staging, local commits, and GitHub. Commit creates local history; push sends committed work to GitHub; pull brings shared commits back.](/git-basics/images/git-commit-push-pull.svg)
+![Diagram distinguishing working files, staging, local commits, and GitHub. Commit creates local history; push sends committed work to GitHub; pull brings shared commits back.](/git-basics/images/git-commit-push-pull.png)
 
 ```text
 Your computer                                      GitHub
