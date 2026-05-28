@@ -14,7 +14,7 @@ This lesson is deliberately slow. The skill is not typing commands quickly; the 
 
 ## Mental model
 
-![Diagram showing work moving from the working tree, to the staging area with git add, and then to local Git history with git commit.](/git-basics/images/git-three-places.svg)
+![Diagram showing work moving from the working tree, to the staging area with git add, and then to local Git history with git commit.](/git-basics/images/git-three-places.png)
 
 
 Git tracks three useful questions:

@@ -12,9 +12,7 @@ Keep the [GitHub Basics infographic](/git-basics/resources/github-basics-infogra
 
 ## The repeatable pattern
 
-```text
-update main → create branch → edit → status → diff → add → diff --staged → commit → push → PR → merge → pull main
-```
+![The repeatable pattern for creating and committing changes.](/git-basics/images/practice-checklist.png)
 
 ## Before each round
 

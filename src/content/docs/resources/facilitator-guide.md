@@ -73,15 +73,9 @@ Time: 45–60 minutes
 4. Practice updating a PR after feedback.
 5. Discuss safe commands and commands to ask about first.
 
-## Board-friendly diagram
+## General workflow
 
-```text
-Learner computer                                 GitHub
-----------------                                 ------
-working files → stage → local commit → push → branch on GitHub → pull request → main
-       ↑                         │                                      │
-       └──── status/diff checks ─┘                                      └─ pull back to local main
-```
+![General workflow diagram](/git-basics/images/facilitator.png)
 
 ## Facilitation tips
 
