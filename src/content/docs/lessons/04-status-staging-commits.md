@@ -8,8 +8,6 @@ sidebar:
 
 Make one small change in the practice repository, inspect what changed, and save it in Git history as a commit.
 
-![Concept card showing edits moving from working files to staging and then into local Git history as a commit.](/git-basics/images/git-basics-lesson-04-status-staging-and-commits.png)
-
 This lesson is deliberately slow. The skill is not typing commands quickly; the skill is knowing what Git knows before you move to the next step.
 
 ## Mental model
